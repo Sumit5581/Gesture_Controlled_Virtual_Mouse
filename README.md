@@ -8,7 +8,7 @@ A touch-free virtual mouse system that enables users to control mouse cursor and
 - **Gesture Recognition**: Recognizes multiple gestures for different mouse actions
 - **Cursor Control**: Maps finger positions to screen coordinates for smooth cursor movement
 - **Multiple Gestures**:
-  - **Left Click**: Index and middle fingers together
+  - **Left Click**: Index and middle finger together
   - **Right Click**: Middle and ring fingers together
   - **Scroll Up**: Three fingers together (index, middle, ring)
   - **Scroll Down**: Pinky with other fingers
