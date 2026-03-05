@@ -19,19 +19,17 @@ class GestureRecognizer:
         if not landmarks or len(landmarks) < 21:
             return None, 0
         
-        # Extract key points
         thumb = landmarks[4]
         index = landmarks[8]
         middle = landmarks[12]
         ring = landmarks[16]
         pinky = landmarks[20]
         
-        index_pip = landmarks[6]  # Index PIP (middle joint)
-        middle_pip = landmarks[10]  # Middle PIP
-        ring_pip = landmarks[14]  # Ring PIP
-        pinky_pip = landmarks[18]  # Pinky PIP
+        index_pip = landmarks[6]  
+        middle_pip = landmarks[10]  
+        ring_pip = landmarks[14]  
+        pinky_pip = landmarks[18]  
         
-        # Calculate distances
         thumb_index_dist = self._distance(thumb, index)
         index_middle_dist = self._distance(index, middle)
         middle_ring_dist = self._distance(middle, ring)
